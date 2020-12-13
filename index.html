@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Progress Slider</title>
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<section>
+    <div class="swiper-container">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+              <div class="item">
+                  <img src="img/1.jpg" alt="slider-image">
+                  <div class="slide-text">
+                      <h1>Restaurant</h1>
+                      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perferendis veniam amet magni voluptates totam. Iusto possimus accusantium quia suscipit quas!</p>
+                      <button>More Information</button>
+                  </div>
+              </div>
+          </div>
+          <div class="swiper-slide">
+              <div class="item">
+                  <img src="img/2.jpg" alt="slider-image">
+                  <div class="slide-text">
+                      <h1>Restaurant</h1>
+                      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perferendis veniam amet magni voluptates totam. Iusto possimus accusantium quia suscipit quas!</p>
+                      <button>More Information</button>
+                  </div>
+              </div>
+          </div>
+          <div class="swiper-slide">
+              <div class="item">
+                  <img src="img/3.jpg" alt="slider-image">
+                  <div class="slide-text">
+                      <h1>Restaurant</h1>
+                      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perferendis veniam amet magni voluptates totam. Iusto possimus accusantium quia suscipit quas!</p>
+                      <button>More Information</button>
+                  </div>
+              </div>
+          </div>
+          <div class="swiper-slide">
+              <div class="item">
+                  <img src="img/4.jpg" alt="slider-image">
+                  <div class="slide-text">
+                      <h1>Restaurant</h1>
+                      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perferendis veniam amet magni voluptates totam. Iusto possimus accusantium quia suscipit quas!</p>
+                      <button>More Information</button>
+                  </div>
+              </div>
+          </div>
+          <div class="swiper-slide">
+              <div class="item">
+                  <img src="img/5.jpg" alt="slider-image">
+                  <div class="slide-text">
+                      <h1>Restaurant</h1>
+                      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perferendis veniam amet magni voluptates totam. Iusto possimus accusantium quia suscipit quas!</p>
+                      <button>More Information</button>
+                  </div>
+              </div>
+          </div>
+          <div class="swiper-slide">
+              <div class="item">
+                  <img src="img/7.jpg" alt="slider-image">
+                  <div class="slide-text">
+                      <h1>Restaurant</h1>
+                      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perferendis veniam amet magni voluptates totam. Iusto possimus accusantium quia suscipit quas!</p>
+                      <button>More Information</button>
+                  </div>
+              </div>
+          </div>
+          <div class="swiper-slide">
+              <div class="item">
+                  <img src="img/8.jpg" alt="slider-image">
+                  <div class="slide-text">
+                      <h1>Restaurant</h1>
+                      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perferendis veniam amet magni voluptates totam. Iusto possimus accusantium quia suscipit quas!</p>
+                      <button>More Information</button>
+                  </div>
+              </div>
+          </div>
+        </div>
+        <!-- Add Pagination -->
+        <div class="swiper-pagination"></div>
+        <!-- Add Arrows -->
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+      </div>
+</section>
+
+
+
+
+
+
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+<script>
+    var swiper = new Swiper('.swiper-container', {
+      pagination: {
+        el: '.swiper-pagination',
+        type: 'progressbar',
+      },
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+      loop:true,
+    });
+  </script>
+</body>
+</html>
